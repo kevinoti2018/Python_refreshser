@@ -1,3 +1,5 @@
+import lib.dog as dog
+
 # print("hello")
 
 
@@ -78,20 +80,29 @@
 
 # class
 
-class Animal:
-    def walk(self):
-        print("walking")
+# class Animal:
+#     def walk(self):
+#         print("walking")
 
-class Dog(Animal):
+# class Dog(Animal):
 
-    def __init__(self,name,age) :
-        self.name =name
-        self.age = age
-    def bark (self):
-        print("woof")
-roger = Dog("brian",8)
-print(roger.name)
-print(roger.age)
-roger.bark()
-roger.walk()
+#     def __init__(self,name,age) :
+#         self.name =name
+#         self.age = age
+#     def bark (self):
+#         print("woof")
+# roger = Dog("brian",8)
+# print(roger.name)
+# print(roger.age)
+# roger.bark()
+# roger.walk()
 
+
+
+
+# modules
+
+# dog.bark()
+from lib.dog import bark
+
+bark()
