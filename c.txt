@@ -1,0 +1,25 @@
+# name ="beau"
+# print( isinstance(name,str))
+
+age = int("20")
+print(isinstance(age,int))
+
+# booleans
+
+# print('hi' or 'hey')
+# print([] or False)
+
+# print(0 and 1)
+# print(1 and 0)
+# print(False and 'hey')
+# print('hi' and 'hey')
+
+
+# is operator compares two objects returns ture if both are the same
+# in membership operator tells when a value is contained in a list
+
+
+# ternary operator
+# age = 20
+# def is_adult(age):
+#     return True if age>28 else False

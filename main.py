@@ -1,7 +1,7 @@
 import random
 
 def get_choice():
-    person_choice = input("enter choice : /n")
+    person_choice = input("enter choice ,(rock, paper,scissors): ")
     print(person_choice)
     options = ['rock','paper','scissors']
     computer_choice = random.choice(options)
